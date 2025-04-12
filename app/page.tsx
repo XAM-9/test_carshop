@@ -437,14 +437,14 @@ function Home() {
                 </p>
               </div>
               <div className="flex justify-start">
-                <img src="/images/SOne_index_pic66.PNG" className="w-5" />
+                <img src="/images/SOne_index_pic66.png" className="w-5" />
               </div>
               <div className="flex flex-col items-center text-center">
                 <p>ควรเติมน้ำมันตอนเช้า</p>
                 <p>ขณะที่อุณหภูมิบนพื้นดินยังเย็นอยู่</p>
               </div>
               <div className="flex justify-end py-1">
-                <img src="/images/SOne_index_pic99.PNG" className="w-5" />
+                <img src="/images/SOne_index_pic99.png" className="w-5" />
               </div>
             </div>
           </div>
