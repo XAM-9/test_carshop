@@ -1,3 +1,24 @@
+วิธีการรันโปรเจค Next.js:
+
+ต้องมี Node.js (แนะนำเวอร์ชัน 14.x ขึ้นไป)
+ตรวจสอบได้โดยรันคำสั่ง node -v ในเทอร์มินัล
+
+โคลนหรือดาวน์โหลดโปรเจค:
+git clone https://github.com/XAM-9/test_carshop.git
+cd test_carshop
+
+ติดตั้ง Dependencies:
+npm install
+หรือถ้าใช้ Yarn:
+yarn install
+
+รันโปรเจคในโหมดพัฒนา:
+npm run dev
+หรือถ้าใช้ Yarn:
+yarn dev
+
+เข้าชมเว็บไซต์:
+เปิดเบราว์เซอร์และไปที่ http://localhost:3000
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -35,36 +56,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-วิธีการรันโปรเจค Next.js:
-
-เตรียมสภาพแวดล้อม:
-
-ต้องมี Node.js ติดตั้งในเครื่องของคุณ (แนะนำเวอร์ชัน 14.x ขึ้นไป)
-ตรวจสอบได้โดยรันคำสั่ง node -v ในเทอร์มินัล
-
-
-โคลนหรือดาวน์โหลดโปรเจค:
-git clone https://github.com/XAM-9/test_carshop.git
-cd test_carshop
-
-ติดตั้ง Dependencies:
-npm install
-หรือถ้าใช้ Yarn:
-yarn install
-
-รันโปรเจคในโหมดพัฒนา:
-npm run dev
-หรือถ้าใช้ Yarn:
-yarn dev
-
-เข้าชมเว็บไซต์:
-
-เปิดเบราว์เซอร์และไปที่ http://localhost:3000
 
 
 
-หมายเหตุเพิ่มเติม:
-
-หากพบ error เกี่ยวกับ dependencies ที่ไม่สามารถติดตั้งได้ ลองอัปเดต npm ด้วยคำสั่ง npm update -g npm
-หากต้องการสร้างเวอร์ชันสำหรับใช้งานจริง (production) ให้รันคำสั่ง npm run build ตามด้วย npm start
-ตรวจสอบไฟล์ .env หรือ .env.local ว่ามีหรือไม่ ถ้ามีอาจจำเป็นต้องกำหนดค่าต่างๆ ตามที่ระบุในไฟล์นั้น
